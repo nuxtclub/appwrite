@@ -2,7 +2,7 @@
 	"name": "@nuxtclub/appwrite",
 	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
 	"description": "An easy way to integrate Appwrite with NuxtJS",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"license": "MIT",
 	"main": "lib/module.js",
 	"files": [

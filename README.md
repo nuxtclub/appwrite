@@ -10,7 +10,6 @@ yarn add @nuxtclub/appwrite # or npm i @nuxtclub/appwrite
 
 2. Add `@nuxtclub/appwrite` to the `modules` section of `nuxt.config.js`
 
-
 ```javascript
 export default {
 	modules: [
@@ -59,7 +58,7 @@ You can find this data on the administration panel of your project > Settings.
 export default {
 	appwrite: {
 		project_id: 'YOUR_PROJECT_ID',
-		endpoint: 'YOUR_API_ENDPOINT', // default http://localhost/v1
+		endpoint: 'YOUR_API_ENDPOINT',
 	},
 }
 ```
