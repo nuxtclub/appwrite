@@ -65,8 +65,8 @@ export default {
 
 ## Usage
 
-This module will inject $Appwrite in the context of your application.
+This module will inject $appwrite in the context of your application.
 
-Using $Appwrite you can access to the Appwrite object of the [Appwrite Client for JavaScript](https://appwrite.io/docs/getting-started-for-web).
+Using $appwrite you can access to the Appwrite object of the [Appwrite Client for JavaScript](https://appwrite.io/docs/getting-started-for-web).
 
 Learn more about Appwrite [here](https://appwrite.io/docs).
