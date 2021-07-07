@@ -1,0 +1,32 @@
+{
+	"name": "@nuxtclub/appwrite",
+	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+	"description": "An easy way to integrate Appwrite with NuxtJS",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "lib/module.js",
+	"files": [
+		"lib",
+		"types/*.d.ts"
+	],
+	"scripts": {
+		"release": "git push --follow-tags && npm publish"
+	},
+	"types": "types/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nuxtclub/appwrite.git"
+	},
+	"bugs": "https://github.com/nuxtclub/appwrite/issues",
+	"keywords": [
+		"nuxt",
+		"appwrite",
+		"module"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"appwrite": "^3.2.0"
+	}
+}
